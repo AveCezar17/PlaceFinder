@@ -400,7 +400,7 @@ DynamicTemplate.prototype._attachEvents = function () {                         
             var handlerThis = self._eventThisArg || this;                                                         // 337
             var handlerArgs = arguments;                                                                          // 338
             //XXX which view should this be? What if the event happened                                           // 339
-            //somwhere down the hierarchy?                                                                        // 340
+            //somewhere down the hierarchy?                                                                        // 340
             return Blaze._withCurrentView(view, function () {                                                     // 341
               return handler.apply(handlerThis, handlerArgs);                                                     // 342
             });                                                                                                   // 343

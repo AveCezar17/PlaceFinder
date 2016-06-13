@@ -533,7 +533,7 @@ MongoConnection.prototype._update = function (collection_name, selector, mod,   
   try {                                                                                                               // 498
     var collection = self.rawCollection(collection_name);                                                             // 499
     var mongoOpts = {safe: true};                                                                                     // 500
-    // explictly enumerate options that minimongo supports                                                            // 501
+    // explicitly enumerate options that minimongo supports                                                            // 501
     if (options.upsert) mongoOpts.upsert = true;                                                                      // 502
     if (options.multi) mongoOpts.multi = true;                                                                        // 503
     // Lets you get a more more full result from MongoDB. Use with caution:                                           // 504
