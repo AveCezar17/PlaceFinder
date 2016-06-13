@@ -19,7 +19,7 @@ var check, Match;
 // XXX docs                                                                                           // 1
                                                                                                       // 2
 // Things we explicitly do NOT support:                                                               // 3
-//    - heterogenous arrays                                                                           // 4
+//    - heterogeneous arrays                                                                           // 4
                                                                                                       // 5
 var currentArgumentChecker = new Meteor.EnvironmentVariable;                                          // 6
                                                                                                       // 7

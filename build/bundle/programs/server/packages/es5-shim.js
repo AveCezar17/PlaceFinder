@@ -66,7 +66,7 @@ originalStringReplace = String.prototype.replace;                               
         define(factory);                                                                                               // 20
     } else if (typeof exports === 'object') {                                                                          // 21
         // Node. Does not work with strict CommonJS, but                                                               // 22
-        // only CommonJS-like enviroments that support module.exports,                                                 // 23
+        // only CommonJS-like environments that support module.exports,                                                 // 23
         // like Node.                                                                                                  // 24
         module.exports = factory();                                                                                    // 25
     } else {                                                                                                           // 26

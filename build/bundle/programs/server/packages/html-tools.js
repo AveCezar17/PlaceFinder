@@ -3276,7 +3276,7 @@ codePointToString = HTMLTools.codePointToString = function(cp) {                
     return String.fromCharCode(cp);                                                                            // 81
   } else if (cp >= 0x10000 && cp <= 0x10FFFF) {                                                                // 82
                                                                                                                // 83
-    // we substract 0x10000 from cp to get a 20-bit number                                                     // 84
+    // we subtract 0x10000 from cp to get a 20-bit number                                                     // 84
     // in the range 0..0xFFFF                                                                                  // 85
     cp -= 0x10000;                                                                                             // 86
                                                                                                                // 87

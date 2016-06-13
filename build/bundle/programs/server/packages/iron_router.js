@@ -841,7 +841,7 @@ Router.prototype.toControllerName = function (str) {                            
  * unless you name routes to include or exclude via `only` and `except` options               // 235
  *                                                                                            // 236
  * @param {String} [type] one of 'load', 'unload', 'before' or 'after'                        // 237
- * @param {Object} [options] Options to controll the hooks [optional]                         // 238
+ * @param {Object} [options] Options to control the hooks [optional]                         // 238
  * @param {Function} [hook] Callback to run                                                   // 239
  * @return {IronRouter}                                                                       // 240
  * @api public                                                                                // 241
